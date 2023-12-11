@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Tuxedo Shop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <nav class="bg-white p-6 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-gray-800">Tuxedo Shop</a>
+        <div>
+          <a href="/Home.html" class="text-gray-800 mx-4">Home</a>
+          <a href="#" class="text-gray-800 mx-4">About</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mx-auto mt-8 p-8 bg-white shadow-md max-w-md mx-auto">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">Contact Us</h2>
+      <form action="#" method="post" class="grid grid-cols-1 gap-6">
+        <label for="name" class="text-gray-800">Your Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="mt-1 p-2 w-full border rounded"
+          placeholder="Your Name"
+          required
+        />
+
+        <label for="email" class="text-gray-800">Your Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="mt-1 p-2 w-full border rounded"
+          placeholder="Your Email"
+          required
+        />
+
+        <label for="message" class="text-gray-800">Your Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          class="mt-1 p-2 w-full border rounded"
+          placeholder="Type your message here"
+          required
+        ></textarea>
+
+        <button
+          type="submit"
+          class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded cursor-pointer"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <footer class="bg-white p-6 shadow-md mt-16">
+      <div class="container mx-auto text-center">
+        <p class="text-gray-800">© 2023 Tuxedo Shop. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
