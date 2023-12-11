@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuxedo Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-white p-6 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-gray-800">Tuxedo Shop</a>
+        <div>
+          <a href="#" class="text-gray-800 mx-4">Home</a>
+          <a href="#" class="text-gray-800 mx-4">About</a>
+          <a href="#" class="text-gray-800 mx-4" id="contactButton">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gray-200 min-h-screen flex items-center justify-center">
+      <div class="text-center">
+        <h1 class="text-5xl font-bold text-gray-800 mb-4">
+          Welcome to Tuxedo Shop
+        </h1>
+        <p class="text-gray-600 mb-8">
+          Discover our amazing, creative, and professional suits for your needs.
+        </p>
+        <button
+          id="shopNowButton"
+          class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded cursor-pointer"
+        >
+          Click Me
+        </button>
+      </div>
+    </header>
+
+    <!-- Footer -->
+    <footer class="bg-white p-6 shadow-md mt-16">
+      <div class="container mx-auto text-center">
+        <p class="text-gray-800">© 2023 Tuxedo Shop. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .getElementById("shopNowButton")
+        .addEventListener("click", function () {
+          alert("Thanks Now Click The About on Top");
+        });
+    </script>
+  </body>
+</html>
